@@ -1,0 +1,482 @@
+[
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 1,
+    "Teil des Ausbildungsberufsbildes": "Herstellen von Bauteilen ( § 4 Absatz 2 Abschnitt A Nummer 1)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "a) Werk- und Hilfsstoffe ihrer Verwendung nach unterscheiden, einsetzen und entsorgen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 1,
+    "Teil des Ausbildungsberufsbildes": "Herstellen von Bauteilen ( § 4 Absatz 2 Abschnitt A Nummer 1)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "b) Betriebsbereitschaft von Werkzeugmaschinen einschließlich der Werkzeuge sicherstellen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 1,
+    "Teil des Ausbildungsberufsbildes": "Herstellen von Bauteilen ( § 4 Absatz 2 Abschnitt A Nummer 1)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "c) Werkzeuge und Spannzeuge auswählen, Werkstücke ausrichten und spannen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 1,
+    "Teil des Ausbildungsberufsbildes": "Herstellen von Bauteilen ( § 4 Absatz 2 Abschnitt A Nummer 1)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "d) Werkstücke durch manuelle und maschinelle Fertigungsverfahren herstellen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 1,
+    "Teil des Ausbildungsberufsbildes": "Herstellen von Bauteilen ( § 4 Absatz 2 Abschnitt A Nummer 1)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "e) Bauteile durch Trennen und Umformen herstellen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 2,
+    "Teil des Ausbildungsberufsbildes": "Warten von Betriebsmitteln ( § 4 Absatz 2 Abschnitt A Nummer 2)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "a) Bestimmungen und Sicherheitsregeln beim Arbeiten mit elektrischen Anlagen, Geräten und Betriebsmitteln beachten"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 2,
+    "Teil des Ausbildungsberufsbildes": "Warten von Betriebsmitteln ( § 4 Absatz 2 Abschnitt A Nummer 2)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "b) Betriebsmittel auf mechanische Beschädigungen sichtprüfen, instand setzen und die Instandsetzung veranlassen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 2,
+    "Teil des Ausbildungsberufsbildes": "Warten von Betriebsmitteln ( § 4 Absatz 2 Abschnitt A Nummer 2)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "c) Betriebsstoffe auswählen, anwenden und entsorgen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 2,
+    "Teil des Ausbildungsberufsbildes": "Warten von Betriebsmitteln ( § 4 Absatz 2 Abschnitt A Nummer 2)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "d) Betriebsmittel inspizieren, pflegen, warten und die Durchführung dokumentieren"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 3,
+    "Teil des Ausbildungsberufsbildes": "Steuerungstechnik ( § 4 Absatz 2 Abschnitt A Nummer 3)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "a) Regelungs- und Steuerungssysteme in ihrer Funktion unterscheiden"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 3,
+    "Teil des Ausbildungsberufsbildes": "Steuerungstechnik ( § 4 Absatz 2 Abschnitt A Nummer 3)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "b) Steuerungstechnik anwenden"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 3,
+    "Teil des Ausbildungsberufsbildes": "Steuerungstechnik ( § 4 Absatz 2 Abschnitt A Nummer 3)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "c) Regelungs- und Steuerungskomponenten überwachen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 3,
+    "Teil des Ausbildungsberufsbildes": "Steuerungstechnik ( § 4 Absatz 2 Abschnitt A Nummer 3)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "d) bei Störungen erste Maßnahmen einleiten"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 4,
+    "Teil des Ausbildungsberufsbildes": "Anschlagen, Sichern und Transportieren ( § 4 Absatz 2 Abschnitt A Nummer 4)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "a) Transport-, Anschlagmittel und Hebezeuge unter Berücksichtigung einschlägiger Vorschriften auswählen, anwenden oder deren Einsatz veranlassen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 4,
+    "Teil des Ausbildungsberufsbildes": "Anschlagen, Sichern und Transportieren ( § 4 Absatz 2 Abschnitt A Nummer 4)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "b) Transportgut absetzen, lagern und sichern"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 5,
+    "Teil des Ausbildungsberufsbildes": "Montieren und Demontieren von Bauteilen und Baugruppen ( § 4 Absatz 2 Abschnitt A Nummer 5)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "a) Bauteile und Baugruppen identifizieren und unter Beachtung ihrer Funktion nach technischen Unterlagen zur Montage und Demontage prüfen und vorbereiten"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 5,
+    "Teil des Ausbildungsberufsbildes": "Montieren und Demontieren von Bauteilen und Baugruppen ( § 4 Absatz 2 Abschnitt A Nummer 5)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "b) Bauteile und Baugruppen nach technischen Unterlagen montieren und demontieren"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 5,
+    "Teil des Ausbildungsberufsbildes": "Montieren und Demontieren von Bauteilen und Baugruppen ( § 4 Absatz 2 Abschnitt A Nummer 5)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "c) lösbare Verbindungen, insbesondere Schraubverbindungen, unter Berücksichtigung der Montagerichtlinien herstellen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 5,
+    "Teil des Ausbildungsberufsbildes": "Montieren und Demontieren von Bauteilen und Baugruppen ( § 4 Absatz 2 Abschnitt A Nummer 5)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "d) nichtlösbare Verbindungen, insbesondere durch Kleben, Nieten oder Schweißen, herstellen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 1,
+    "Teil des Ausbildungsberufsbildes": "Planen und Vorbereiten von Montage- und Demontageprozessen ( § 4 Absatz 2 Abschnitt C Nummer 1)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "a) Bearbeitungsverfahren unter Berücksichtigung der Werkstoffe auswählen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 1,
+    "Teil des Ausbildungsberufsbildes": "Planen und Vorbereiten von Montage- und Demontageprozessen ( § 4 Absatz 2 Abschnitt C Nummer 1)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "b) Werkzeuge und Maschinen, insbesondere unter Berücksichtigung des Werkstoffes, auswählen und einrichten"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 1,
+    "Teil des Ausbildungsberufsbildes": "Planen und Vorbereiten von Montage- und Demontageprozessen ( § 4 Absatz 2 Abschnitt C Nummer 1)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "c) Fügeteile entsprechend den Fügeverfahren vorbereiten"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 2,
+    "Teil des Ausbildungsberufsbildes": "Montieren und Demontieren von Metallkonstruktionen ( § 4 Absatz 2 Abschnitt C Nummer 2)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "a) Bauteile und Baugruppen demontieren und hinsichtlich Lage und Funktionszuordnung kennzeichnen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 2,
+    "Teil des Ausbildungsberufsbildes": "Montieren und Demontieren von Metallkonstruktionen ( § 4 Absatz 2 Abschnitt C Nummer 2)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "b) Montageplatz und Baugruppen gegen Unfallgefahren sichern, Sicherheitseinrichtungen überprüfen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 2,
+    "Teil des Ausbildungsberufsbildes": "Montieren und Demontieren von Metallkonstruktionen ( § 4 Absatz 2 Abschnitt C Nummer 2)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "c) Metallkonstruktionen unter Berücksichtigung der Werkstoffkombinationen nach Vorgaben befestigen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 2,
+    "Teil des Ausbildungsberufsbildes": "Montieren und Demontieren von Metallkonstruktionen ( § 4 Absatz 2 Abschnitt C Nummer 2)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "d) Bauteile und Baugruppen unter Beachtung der Maßtoleranzen passen sowie durch Messen, Lehren und Sichtprüfen funktionsgerecht ausrichten und Lage sichern"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 2,
+    "Teil des Ausbildungsberufsbildes": "Montieren und Demontieren von Metallkonstruktionen ( § 4 Absatz 2 Abschnitt C Nummer 2)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "e) Baugruppen übergeben und Funktionen erläutern"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 3,
+    "Teil des Ausbildungsberufsbildes": "Trennen und Umformen ( § 4 Absatz 2 Abschnitt C Nummer 3)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "a) Bleche, Rohre oder Profile nach Zeichnungen und Schablonen vorrichten"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 3,
+    "Teil des Ausbildungsberufsbildes": "Trennen und Umformen ( § 4 Absatz 2 Abschnitt C Nummer 3)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "b) Bleche, Rohre oder Profile handgeführt, maschinell und thermisch umformen und trennen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 3,
+    "Teil des Ausbildungsberufsbildes": "Trennen und Umformen ( § 4 Absatz 2 Abschnitt C Nummer 3)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "c) Hilfswerkzeuge nach Verwendungszweck auswählen und anwenden"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 3,
+    "Teil des Ausbildungsberufsbildes": "Trennen und Umformen ( § 4 Absatz 2 Abschnitt C Nummer 3)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "d) Schnittflächen- und Oberflächengüte beurteilen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 3,
+    "Teil des Ausbildungsberufsbildes": "Trennen und Umformen ( § 4 Absatz 2 Abschnitt C Nummer 3)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "e) Fehler feststellen, beheben und Maßnahmen zu ihrer Vermeidung einleiten"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 4,
+    "Teil des Ausbildungsberufsbildes": "Fügen von Bauteilen ( § 4 Absatz 2 Abschnitt C Nummer 4)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "a) Hilfskonstruktionen, Vorrichtungen und Schablonen anwenden"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 4,
+    "Teil des Ausbildungsberufsbildes": "Fügen von Bauteilen ( § 4 Absatz 2 Abschnitt C Nummer 4)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "b) Schweißnähte thermisch vorbereiten und nachbehandeln"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 4,
+    "Teil des Ausbildungsberufsbildes": "Fügen von Bauteilen ( § 4 Absatz 2 Abschnitt C Nummer 4)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "c) Bauteile und Baugruppen nach technischen Unterlagen fügen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 4,
+    "Teil des Ausbildungsberufsbildes": "Fügen von Bauteilen ( § 4 Absatz 2 Abschnitt C Nummer 4)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "d) Bauteile, insbesondere durch Schmelzschweißverfahren, entsprechend den Normen und Vorschriften fügen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 4,
+    "Teil des Ausbildungsberufsbildes": "Fügen von Bauteilen ( § 4 Absatz 2 Abschnitt C Nummer 4)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "e) Metallkonstruktionen, insbesondere durch Schrauben, Löten und Nieten, verbinden"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 4,
+    "Teil des Ausbildungsberufsbildes": "Fügen von Bauteilen ( § 4 Absatz 2 Abschnitt C Nummer 4)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "f) Schweiß- und Lötverbindungen sichtprüfen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 5,
+    "Teil des Ausbildungsberufsbildes": "Aufbereiten und Schützen von Oberflächen ( § 4 Absatz 2 Abschnitt C Nummer 5)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "a) Oberflächen für das Auftragen von Konservierungs-, Korrosionsschutz- und Beschichtungsmitteln vorbereiten"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 5,
+    "Teil des Ausbildungsberufsbildes": "Aufbereiten und Schützen von Oberflächen ( § 4 Absatz 2 Abschnitt C Nummer 5)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "b) Konservierungs-, Korrosionsschutz-, Beschichtungs- und Dämmmittel unter Beachtung der Verarbeitungsvorschriften auftragen und prüfen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 1,
+    "Teil des Ausbildungsberufsbildes": "Berufsbildung, Arbeits- und Tarifrecht ( § 4 Absatz 2 Abschnitt F Nummer 1)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "a) Bedeutung des Ausbildungsvertrages, insbesondere Abschluss, Dauer und Beendigung, erklären"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 1,
+    "Teil des Ausbildungsberufsbildes": "Berufsbildung, Arbeits- und Tarifrecht ( § 4 Absatz 2 Abschnitt F Nummer 1)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "b) gegenseitige Rechte und Pflichten aus dem Ausbildungsvertrag nennen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 1,
+    "Teil des Ausbildungsberufsbildes": "Berufsbildung, Arbeits- und Tarifrecht ( § 4 Absatz 2 Abschnitt F Nummer 1)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "c) Möglichkeiten der beruflichen Fortbildung nennen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 1,
+    "Teil des Ausbildungsberufsbildes": "Berufsbildung, Arbeits- und Tarifrecht ( § 4 Absatz 2 Abschnitt F Nummer 1)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "d) wesentliche Teile des Arbeitsvertrages nennen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 1,
+    "Teil des Ausbildungsberufsbildes": "Berufsbildung, Arbeits- und Tarifrecht ( § 4 Absatz 2 Abschnitt F Nummer 1)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "e) wesentliche Bestimmungen der für den ausbildenden Betrieb geltenden Tarifverträge nennen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 2,
+    "Teil des Ausbildungsberufsbildes": "Aufbau und Organisation des Ausbildungsbetriebes ( § 4 Absatz 2 Abschnitt F Nummer 2)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "a) Aufbau und Aufgaben des ausbildenden Betriebes erläutern"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 2,
+    "Teil des Ausbildungsberufsbildes": "Aufbau und Organisation des Ausbildungsbetriebes ( § 4 Absatz 2 Abschnitt F Nummer 2)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "b) Grundfunktionen des ausbildenden Betriebes, wie Beschaffung, Fertigung, Absatz und Verwaltung, erklären"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 2,
+    "Teil des Ausbildungsberufsbildes": "Aufbau und Organisation des Ausbildungsbetriebes ( § 4 Absatz 2 Abschnitt F Nummer 2)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "c) Beziehungen des ausbildenden Betriebes und seiner Beschäftigten zu Wirtschaftsorganisationen, Berufsvertretungen und Gewerkschaften nennen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 2,
+    "Teil des Ausbildungsberufsbildes": "Aufbau und Organisation des Ausbildungsbetriebes ( § 4 Absatz 2 Abschnitt F Nummer 2)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "d) Grundlagen, Aufgaben und Arbeitsweise der betriebsverfassungs- oder personalvertretungsrechtlichen Organe des ausbildenden Betriebes beschreiben"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 3,
+    "Teil des Ausbildungsberufsbildes": "Sicherheit und Gesundheitsschutz bei der Arbeit ( § 4 Absatz 2 Abschnitt F Nummer 3)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "a) Gefährdung von Sicherheit und Gesundheit am Arbeitsplatz feststellen und Maßnahmen zu ihrer Vermeidung ergreifen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 3,
+    "Teil des Ausbildungsberufsbildes": "Sicherheit und Gesundheitsschutz bei der Arbeit ( § 4 Absatz 2 Abschnitt F Nummer 3)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "b) berufsbezogene Arbeitsschutz- und Unfallverhütungsvorschriften anwenden"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 3,
+    "Teil des Ausbildungsberufsbildes": "Sicherheit und Gesundheitsschutz bei der Arbeit ( § 4 Absatz 2 Abschnitt F Nummer 3)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "c) Verhaltensweisen bei Unfällen beschreiben sowie erste Maßnahmen einleiten"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 3,
+    "Teil des Ausbildungsberufsbildes": "Sicherheit und Gesundheitsschutz bei der Arbeit ( § 4 Absatz 2 Abschnitt F Nummer 3)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "d) Vorschriften des vorbeugenden Brandschutzes anwenden; Verhaltensweisen bei Bränden beschreiben und Maßnahmen zur Brandbekämpfung ergreifen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 4,
+    "Teil des Ausbildungsberufsbildes": "Umweltschutz ( § 4 Absatz 2 Abschnitt F Nummer 4)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "a) mögliche Umweltbelastungen durch den Ausbildungsbetrieb und seinen Beitrag zum Umweltschutz an Beispielen erklären"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 4,
+    "Teil des Ausbildungsberufsbildes": "Umweltschutz ( § 4 Absatz 2 Abschnitt F Nummer 4)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "b) für den Ausbildungsbetrieb geltende Regelungen des Umweltschutzes anwenden"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 4,
+    "Teil des Ausbildungsberufsbildes": "Umweltschutz ( § 4 Absatz 2 Abschnitt F Nummer 4)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "c) Möglichkeiten der wirtschaftlichen und umweltschonenden Energie- und Materialverwendung nutzen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 4,
+    "Teil des Ausbildungsberufsbildes": "Umweltschutz ( § 4 Absatz 2 Abschnitt F Nummer 4)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "d) Abfälle vermeiden; Stoffe und Materialien einer umweltschonenden Entsorgung zuführen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 5,
+    "Teil des Ausbildungsberufsbildes": "Durchführen von qualitätssichernden Maßnahmen ( § 4 Absatz 2 Abschnitt F Nummer 5)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "a) Arbeiten kundenorientiert durchführen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 5,
+    "Teil des Ausbildungsberufsbildes": "Durchführen von qualitätssichernden Maßnahmen ( § 4 Absatz 2 Abschnitt F Nummer 5)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "b) Prüfverfahren und Prüfmittel auswählen und anwenden, Einsatzfähigkeit von Prüfmitteln feststellen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 5,
+    "Teil des Ausbildungsberufsbildes": "Durchführen von qualitätssichernden Maßnahmen ( § 4 Absatz 2 Abschnitt F Nummer 5)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "c) zur kontinuierlichen Verbesserung von Arbeitsvorgängen im eigenen Arbeitsbereich beitragen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 5,
+    "Teil des Ausbildungsberufsbildes": "Durchführen von qualitätssichernden Maßnahmen ( § 4 Absatz 2 Abschnitt F Nummer 5)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "d) Arbeitsergebnisse kontrollieren, beurteilen und dokumentieren"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 5,
+    "Teil des Ausbildungsberufsbildes": "Durchführen von qualitätssichernden Maßnahmen ( § 4 Absatz 2 Abschnitt F Nummer 5)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "e) Ursachen von Qualitätsabweichungen feststellen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 5,
+    "Teil des Ausbildungsberufsbildes": "Durchführen von qualitätssichernden Maßnahmen ( § 4 Absatz 2 Abschnitt F Nummer 5)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "f) Korrekturmaßnahmen einleiten"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 6,
+    "Teil des Ausbildungsberufsbildes": "Betriebliche und technische Kommunikation ( § 4 Absatz 2 Abschnitt F Nummer 6)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "a) Informationsquellen auswählen, Informationen beschaffen und auswerten"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 6,
+    "Teil des Ausbildungsberufsbildes": "Betriebliche und technische Kommunikation ( § 4 Absatz 2 Abschnitt F Nummer 6)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "b) Daten und Dokumente auch unter Berücksichtigung des Datenschutzes pflegen, sichern und archivieren"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 6,
+    "Teil des Ausbildungsberufsbildes": "Betriebliche und technische Kommunikation ( § 4 Absatz 2 Abschnitt F Nummer 6)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "c) technische Zeichnungen und Stücklisten auswerten und anwenden"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 6,
+    "Teil des Ausbildungsberufsbildes": "Betriebliche und technische Kommunikation ( § 4 Absatz 2 Abschnitt F Nummer 6)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "d) Skizzen anfertigen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 6,
+    "Teil des Ausbildungsberufsbildes": "Betriebliche und technische Kommunikation ( § 4 Absatz 2 Abschnitt F Nummer 6)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "e) auftragsspezifische Dokumente sowie technische Unterlagen und berufsbezogene Vorschriften auswerten und anwenden"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 6,
+    "Teil des Ausbildungsberufsbildes": "Betriebliche und technische Kommunikation ( § 4 Absatz 2 Abschnitt F Nummer 6)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "f) Sachverhalte darstellen, Protokolle anfertigen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 6,
+    "Teil des Ausbildungsberufsbildes": "Betriebliche und technische Kommunikation ( § 4 Absatz 2 Abschnitt F Nummer 6)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "g) Gespräche mit Kunden, Vorgesetzten und im Team situationsgerecht und zielorientiert führen, kulturelle Identitäten berücksichtigen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 6,
+    "Teil des Ausbildungsberufsbildes": "Betriebliche und technische Kommunikation ( § 4 Absatz 2 Abschnitt F Nummer 6)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "h) Konflikte erkennen, zur Konfliktlösung beitragen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 7,
+    "Teil des Ausbildungsberufsbildes": "Planen und Ausführen der Arbeit ( § 4 Absatz 2 Abschnitt F Nummer 7)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "a) Arbeitsplatz unter Berücksichtigung betrieblicher Vorgaben einrichten"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 7,
+    "Teil des Ausbildungsberufsbildes": "Planen und Ausführen der Arbeit ( § 4 Absatz 2 Abschnitt F Nummer 7)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "b) Werkzeuge, Materialien und Hilfsmittel auswählen, termingerecht anfordern, prüfen, transportieren und bereitstellen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 7,
+    "Teil des Ausbildungsberufsbildes": "Planen und Ausführen der Arbeit ( § 4 Absatz 2 Abschnitt F Nummer 7)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "c) Aufgaben unter Beachtung der betrieblichen Vorgaben planen und durchführen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 7,
+    "Teil des Ausbildungsberufsbildes": "Planen und Ausführen der Arbeit ( § 4 Absatz 2 Abschnitt F Nummer 7)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "d) Instrumente zur Auftragsabwicklung sowie der Terminverfolgung anwenden"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 7,
+    "Teil des Ausbildungsberufsbildes": "Planen und Ausführen der Arbeit ( § 4 Absatz 2 Abschnitt F Nummer 7)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "e) betriebswirtschaftlich relevante Daten erfassen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 7,
+    "Teil des Ausbildungsberufsbildes": "Planen und Ausführen der Arbeit ( § 4 Absatz 2 Abschnitt F Nummer 7)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "f) unterschiedliche Lerntechniken anwenden"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 7,
+    "Teil des Ausbildungsberufsbildes": "Planen und Ausführen der Arbeit ( § 4 Absatz 2 Abschnitt F Nummer 7)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "g) Lösungsvarianten prüfen und darstellen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 7,
+    "Teil des Ausbildungsberufsbildes": "Planen und Ausführen der Arbeit ( § 4 Absatz 2 Abschnitt F Nummer 7)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "h) im Arbeitsbereich eigenen Qualifikationsbedarf feststellen, Qualifizierungsmöglichkeiten nutzen"
+  },
+  {
+    "Gewerk": "Metall",
+    "Lfd. Nr.": 7,
+    "Teil des Ausbildungsberufsbildes": "Planen und Ausführen der Arbeit ( § 4 Absatz 2 Abschnitt F Nummer 7)",
+    "Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten": "i) Aufgaben im Team absprechen und durchführen"
+  }
+]
