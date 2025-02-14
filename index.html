@@ -20,53 +20,6 @@
             font-size: 14px;
         }
 
-        /* Druck-Styles */
-        @media print {
-            @page {
-                size: landscape;
-                margin: 1cm;
-            }
-
-            body {
-                background-color: white;
-                zoom: 100%;
-                -webkit-transform: scale(1);
-                transform: scale(1);
-                transform-origin: top left;
-            }
-
-            .no-print {
-                display: none !important;
-            }
-
-            .print-area {
-                display: block;
-            }
-
-            .content {
-                grid-template-columns: 1fr !important;
-            }
-
-            .preview-table {
-                page-break-inside: avoid;
-            }
-
-            body {
-                -webkit-print-color-adjust: exact !important;
-                print-color-adjust: exact !important;
-            }
-
-            .preview-table th, .preview-table td {
-                padding: 4px !important;
-                font-size: 12px;
-                white-space: normal !important;
-            }
-
-            .preview-table {
-                width: 100% !important;
-            }
-        }
-
         /* Container und Layout */
         .container {
             max-width: 1920px;
@@ -77,6 +30,7 @@
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
 
+        /* Header-Bereich */
         .header {
             display: flex;
             align-items: center;
@@ -103,12 +57,14 @@
             justify-content: space-between;
             margin-bottom: 20px;
             gap: 20px;
+            flex-wrap: wrap;
         }
 
         .date-inputs {
             display: flex;
             gap: 10px;
             align-items: center;
+            flex-wrap: wrap;
         }
 
         /* Hauptinhalt */
@@ -170,6 +126,7 @@
             border: none;
             border-radius: 4px;
             cursor: pointer;
+            white-space: nowrap;
         }
 
         button:hover {
@@ -193,23 +150,47 @@
             border: 1px solid #ddd;
             padding: 8px;
             text-align: left;
-            white-space: normal;
         }
 
         .preview-table th {
             background-color: #f8f9fa;
         }
 
-        .completion-checkbox {
-            width: 20px;
-            height: 20px;
+        /* Druck-Styles */
+        @media print {
+            @page {
+                size: landscape;
+                margin: 1cm;
+            }
+
+            body {
+                background-color: white;
+            }
+
+            .no-print {
+                display: none !important;
+            }
+
+            .print-area {
+                display: block;
+            }
+
+            .content {
+                grid-template-columns: 1fr !important;
+            }
+
+            .preview-table {
+                page-break-inside: avoid;
+            }
+
+            .preview-table th, .preview-table td {
+                padding: 4px !important;
+                font-size: 12px;
+                white-space: normal !important;
+            }
         }
 
-        .completion-date {
-            width: 100px;
-        }
-
-        /* Fehlermeldungen */
+        /* Error Message */
         .error-message {
             color: red;
             padding: 20px;
@@ -217,6 +198,22 @@
             background-color: #ffe6e6;
             border-radius: 4px;
             margin-bottom: 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .content {
+                grid-template-columns: 1fr;
+            }
+
+            .date-inputs {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .controls {
+                flex-direction: column;
+            }
         }
     </style>
 </head>
@@ -229,9 +226,10 @@
             const [startDate, setStartDate] = React.useState('');
             const [endDate, setEndDate] = React.useState('');
             const [selectedContent, setSelectedContent] = React.useState([]);
-            const [selectedGewerk, setSelectedGewerk] = React.useState('Tischler');
+            const [selectedGewerk, setSelectedGewerk] = React.useState('');
             const [ausbildungsplanData, setAusbildungsplanData] = React.useState({});
             const [error, setError] = React.useState(null);
+            const [availableGewerke, setAvailableGewerke] = React.useState([]);
 
             // Daten beim ersten Laden abrufen
             React.useEffect(() => {
@@ -239,9 +237,14 @@
                     try {
                         const response = await fetch('https://raw.githubusercontent.com/Thimeus/Ausbildungswochenplaner/main/data.json');
                         if (!response.ok) {
-                            throw new Error('Netzwerkantwort war nicht erfolgreich');
+                            throw new Error('Fehler beim Laden der Daten: HTTP-Status ' + response.status);
                         }
                         const data = await response.json();
+                        
+                        // Verfügbare Gewerke extrahieren
+                        const uniqueGewerke = [...new Set(data.map(item => item.Gewerk))];
+                        setAvailableGewerke(uniqueGewerke);
+                        setSelectedGewerk(uniqueGewerke[0]); // Erstes Gewerk als Standard
                         
                         // Daten nach Gewerk gruppieren
                         const groupedData = data.reduce((acc, item) => {
@@ -256,7 +259,7 @@
                         setError(null);
                     } catch (error) {
                         console.error('Fehler beim Laden der Daten:', error);
-                        setError('Fehler beim Laden der Daten. Bitte versuchen Sie es später erneut.');
+                        setError('Fehler beim Laden der Daten: ' + error.message);
                     }
                 };
 
@@ -282,17 +285,6 @@
                 }
             };
 
-            // Fehlermeldung anzeigen, wenn Daten nicht geladen werden können
-            if (error) {
-                return <div className="container">
-                    <div className="error-message">
-                        {error}
-                    </div>
-                </div>;
-            }
-
-            const currentAusbildungsplan = ausbildungsplanData[selectedGewerk] || [];
-
             // Hilfsfunktion zum Formatieren des Datums
             const formatDate = (dateString) => {
                 if (!dateString) return '';
@@ -300,13 +292,24 @@
                 return `${day}.${month}.${year}`;
             };
 
+            // Fehlerbehandlung
+            if (error) {
+                return <div className="container">
+                    <div className="error-message">{error}</div>
+                </div>;
+            }
+
+            const currentAusbildungsplan = ausbildungsplanData[selectedGewerk] || [];
+
             // Hauptkomponenten-Rendering
             return (
                 <div className="container">
                     <div className="header">
-                        <img src="https://raw.githubusercontent.com/Thimeus/Ausbildungswochenplaner/main/logo_bbb_1.png"
-                             alt="BBB Logo"
-                             className="logo" />
+                        <img 
+                            src="https://raw.githubusercontent.com/Thimeus/Ausbildungswochenplaner/main/logo_bbb_1.png" 
+                            alt="BBB Logo" 
+                            className="logo" 
+                        />
                         <div className="title">
                             <h1>BBB Ausbildungssplaner</h1>
                             <h2>Ausbildung - {selectedGewerk}</h2>
@@ -321,11 +324,9 @@
                                 value={selectedGewerk} 
                                 onChange={(e) => setSelectedGewerk(e.target.value)}
                             >
-                                <option value="Tischler">Tischler</option>
-                                <option value="Maler">Maler</option>
-                                <option value="Hauswirtschaft">Hauswirtschaft</option>
-                                <option value="Metall">Metall</option>
-                                <option value="Gartenbau">Gartenbau</option>
+                                {availableGewerke.map(gewerk => (
+                                    <option key={gewerk} value={gewerk}>{gewerk}</option>
+                                ))}
                             </select>
                             <label>Zeitraum von: </label>
                             <input
