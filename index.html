@@ -1,3 +1,6 @@
+Um den Code anzupassen, damit die Daten aus den neuen Quellen geladen werden, können wir den Code entsprechend ändern, um die spezifischen JSON-Dateien für jedes Gewerk zu laden. Hier ist der angepasste Code:
+
+```html
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -229,23 +232,45 @@
             const [selectedGewerk, setSelectedGewerk] = React.useState('');
             const [ausbildungsplanData, setAusbildungsplanData] = React.useState({});
             const [error, setError] = React.useState(null);
-            const [availableGewerke, setAvailableGewerke] = React.useState([]);
+            const [availableGewerke, setAvailableGewerke] = React.useState([
+                'Gartenbau',
+                'Hauswirtschaft',
+                'Maler',
+                'Metall',
+                'Tischler'
+            ]);
 
-            // Daten beim ersten Laden abrufen
+            // Daten laden basierend auf ausgewähltem Gewerk
             React.useEffect(() => {
                 const loadData = async () => {
                     try {
-                        const response = await fetch('https://raw.githubusercontent.com/Thimeus/Ausbildungswochenplaner/main/data.json');
+                        let url = '';
+                        switch (selectedGewerk) {
+                            case 'Gartenbau':
+                                url = 'https://raw.githubusercontent.com/Thimeus/Ausbildungswochenplaner/main/FP%20Gartenbau.json';
+                                break;
+                            case 'Hauswirtschaft':
+                                url = 'https://raw.githubusercontent.com/Thimeus/Ausbildungswochenplaner/main/Hauswirtschaft.json';
+                                break;
+                            case 'Maler':
+                                url = 'https://raw.githubusercontent.com/Thimeus/Ausbildungswochenplaner/main/Maler.json';
+                                break;
+                            case 'Metall':
+                                url = 'https://raw.githubusercontent.com/Thimeus/Ausbildungswochenplaner/main/Metall.json';
+                                break;
+                            case 'Tischler':
+                                url = 'https://raw.githubusercontent.com/Thimeus/Ausbildungswochenplaner/main/Tischler.json';
+                                break;
+                            default:
+                                throw new Error('Ungültiges Gewerk ausgewählt');
+                        }
+
+                        const response = await fetch(url);
                         if (!response.ok) {
                             throw new Error('Fehler beim Laden der Daten: HTTP-Status ' + response.status);
                         }
                         const data = await response.json();
-                        
-                        // Verfügbare Gewerke extrahieren
-                        const uniqueGewerke = [...new Set(data.map(item => item.Gewerk))];
-                        setAvailableGewerke(uniqueGewerke);
-                        setSelectedGewerk(uniqueGewerke[0]); // Erstes Gewerk als Standard
-                        
+
                         // Daten nach Gewerk gruppieren
                         const groupedData = data.reduce((acc, item) => {
                             if (!acc[item.Gewerk]) {
@@ -254,7 +279,7 @@
                             acc[item.Gewerk].push(item);
                             return acc;
                         }, {});
-                        
+
                         setAusbildungsplanData(groupedData);
                         setError(null);
                     } catch (error) {
@@ -264,7 +289,7 @@
                 };
 
                 loadData();
-            }, []);
+            }, [selectedGewerk]);
 
             // Funktion zum Umschalten des ausgewählten Inhalts
             const toggleContent = (content) => {
@@ -402,3 +427,6 @@
     </script>
 </body>
 </html>
+```
+
+In diesem angepassten Code wird die `loadData` Funktion so geändert, dass sie die spezifischen JSON-Dateien basierend auf dem ausgewählten Gewerk lädt.
