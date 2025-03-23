@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BBB Ausbildungssplaner</title>
+    <title>BBB Ausbildungsplaner</title>
 
     <!-- React und Dependencies -->
     <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
@@ -227,58 +227,42 @@
             const [endDate, setEndDate] = React.useState('');
             const [selectedContent, setSelectedContent] = React.useState([]);
             const [selectedGewerk, setSelectedGewerk] = React.useState('');
-            const [ausbildungsplanData, setAusbildungsplanData] = React.useState({});
+            const [ausbildungsplanData, setAusbildungsplanData] = React.useState([]);
             const [error, setError] = React.useState(null);
             const [availableGewerke, setAvailableGewerke] = React.useState([
-                'Gartenbau',
-                'Hauswirtschaft',
-                'Maler',
-                'Metall',
-                'Tischler'
-            ]);
+                "FP Gartenbau",
+                "Hauswirtschaft",
+                "Maler",
+                "Metall",
+                "Tischler"
+            ]); // Harte Codierung der Gewerke
+            const gewerkDataUrls = {
+                "FP Gartenbau": "https://raw.githubusercontent.com/Thimeus/Ausbildungswochenplaner/main/FP%20Gartenbau.json",
+                "Hauswirtschaft": "https://raw.githubusercontent.com/Thimeus/Ausbildungswochenplaner/main/Hauswirtschaft.json",
+                "Maler": "https://raw.githubusercontent.com/Thimeus/Ausbildungswochenplaner/main/Maler.json",
+                "Metall": "https://raw.githubusercontent.com/Thimeus/Ausbildungswochenplaner/main/Metall.json",
+                "Tischler": "https://raw.githubusercontent.com/Thimeus/Ausbildungswochenplaner/main/Tischler.json"
+            };
 
-            // Daten laden basierend auf ausgewähltem Gewerk
+
+            // Daten beim ersten Laden abrufen
             React.useEffect(() => {
                 const loadData = async () => {
                     try {
-                        let url = '';
-                        switch (selectedGewerk) {
-                            case 'Gartenbau':
-                                url = 'https://raw.githubusercontent.com/Thimeus/Ausbildungswochenplaner/main/FP%20Gartenbau.json';
-                                break;
-                            case 'Hauswirtschaft':
-                                url = 'https://raw.githubusercontent.com/Thimeus/Ausbildungswochenplaner/main/Hauswirtschaft.json';
-                                break;
-                            case 'Maler':
-                                url = 'https://raw.githubusercontent.com/Thimeus/Ausbildungswochenplaner/main/Maler.json';
-                                break;
-                            case 'Metall':
-                                url = 'https://raw.githubusercontent.com/Thimeus/Ausbildungswochenplaner/main/Metall.json';
-                                break;
-                            case 'Tischler':
-                                url = 'https://raw.githubusercontent.com/Thimeus/Ausbildungswochenplaner/main/Tischler.json';
-                                break;
-                            default:
-                                throw new Error('Ungültiges Gewerk ausgewählt');
-                        }
-
-                        const response = await fetch(url);
-                        if (!response.ok) {
-                            throw new Error('Fehler beim Laden der Daten: HTTP-Status ' + response.status);
-                        }
-                        const data = await response.json();
-
-                        // Daten nach Gewerk gruppieren
-                        const groupedData = data.reduce((acc, item) => {
-                            if (!acc[item.Gewerk]) {
-                                acc[item.Gewerk] = [];
+                        const allData = {};
+                        for (const gewerk of availableGewerke) {
+                            const response = await fetch(gewerkDataUrls[gewerk]);
+                            if (!response.ok) {
+                                throw new Error(`Fehler beim Laden der Daten für ${gewerk}: HTTP-Status ${response.status}`);
                             }
-                            acc[item.Gewerk].push(item);
-                            return acc;
-                        }, {});
+                            const data = await response.json();
+                            allData[gewerk] = data;
+                        }
 
-                        setAusbildungsplanData(groupedData);
+                        setAusbildungsplanData(allData);
+                        setSelectedGewerk(availableGewerke[0]); // Erstes Gewerk als Standard
                         setError(null);
+
                     } catch (error) {
                         console.error('Fehler beim Laden der Daten:', error);
                         setError('Fehler beim Laden der Daten: ' + error.message);
@@ -286,11 +270,11 @@
                 };
 
                 loadData();
-            }, [selectedGewerk]);
+            }, []);
 
             // Funktion zum Umschalten des ausgewählten Inhalts
-            const toggleContent = (content) => {
-                const isSelected = selectedContent.find(item =>
+           const toggleContent = (content) => {
+                const isSelected = selectedContent.some(item =>
                     item["Lfd. Nr."] === content["Lfd. Nr."] &&
                     item["Teil des Ausbildungsberufsbildes"] === content["Teil des Ausbildungsberufsbildes"] &&
                     item["Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten"] === content["Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten"]
@@ -327,13 +311,13 @@
             return (
                 <div className="container">
                     <div className="header">
-                        <img 
-                            src="https://raw.githubusercontent.com/Thimeus/Ausbildungswochenplaner/main/logo_bbb_1.png" 
-                            alt="BBB Logo" 
-                            className="logo" 
+                        <img
+                            src="https://raw.githubusercontent.com/Thimeus/Ausbildungswochenplaner/main/logo_bbb_1.png"
+                            alt="BBB Logo"
+                            className="logo"
                         />
                         <div className="title">
-                            <h1>BBB Ausbildungssplaner</h1>
+                            <h1>BBB Ausbildungsplaner</h1>
                             <h2>Ausbildung - {selectedGewerk}</h2>
                         </div>
                     </div>
@@ -341,9 +325,9 @@
                     <div className="controls no-print">
                         <div className="date-inputs">
                             <label htmlFor="gewerk">Gewerk auswählen:</label>
-                            <select 
-                                id="gewerk" 
-                                value={selectedGewerk} 
+                            <select
+                                id="gewerk"
+                                value={selectedGewerk}
                                 onChange={(e) => setSelectedGewerk(e.target.value)}
                             >
                                 {availableGewerke.map(gewerk => (
@@ -374,7 +358,7 @@
                                     <input
                                         type="checkbox"
                                         checked={selectedContent.some(selected =>
-                                            selected["Lfd. Nr."] === item["Lfd. Nr."] &&
+                                           selected["Lfd. Nr."] === item["Lfd. Nr."] &&
                                             selected["Teil des Ausbildungsberufsbildes"] === item["Teil des Ausbildungsberufsbildes"] &&
                                             selected["Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten"] === item["Zu vermittelnde Fertigkeiten, Kenntnisse und Fähigkeiten"]
                                         )}
